@@ -1,0 +1,133 @@
+{
+    "keys": [
+        {
+            "sensor": {
+                "i2c_address": 72,
+                "channel": 0,
+                "threshold": 13000,
+                "alpha": 0.4
+            },
+            "midi": {
+                "channel": 0,
+                "program": 0,
+                "note": 65,
+                "velocity": 64
+            }
+        },
+        {
+            "sensor": {
+                "i2c_address": 72,
+                "channel": 1,
+                "threshold": 13000,
+                "alpha": 0.3
+            },
+            "midi": {
+                "channel": 1,
+                "program": 0,
+                "note": 64,
+                "velocity": 64
+            }
+        },
+        {
+            "sensor": {
+                "i2c_address": 72,
+                "channel": 2,
+                "threshold": 13000,
+                "alpha": 0.2
+            },
+            "midi": {
+                "channel": 2,
+                "program": 0,
+                "note": 62,
+                "velocity": 64
+            }
+        },
+        {
+            "sensor": {
+                "i2c_address": 72,
+                "channel": 3,
+                "threshold": 12000,
+                "alpha": 0.2
+            },
+            "midi": {
+                "channel": 3,
+                "program": 0,
+                "note": 60,
+                "velocity": 64
+            }
+        },
+        {
+            "sensor": {
+                "i2c_address": 73,
+                "channel": 0,
+                "threshold": 13000,
+                "alpha": 0.2
+            },
+            "midi": {
+                "channel": 4,
+                "program": 0,
+                "note": 72,
+                "velocity": 64
+            }
+        },
+        {
+            "sensor": {
+                "i2c_address": 73,
+                "channel": 1,
+                "threshold": 12000,
+                "alpha": 0.2
+            },
+            "midi": {
+                "channel": 5,
+                "program": 0,
+                "note": 71,
+                "velocity": 64
+            }
+        },
+        {
+            "sensor": {
+                "i2c_address": 73,
+                "channel": 2,
+                "threshold": 13000,
+                "alpha": 0.2
+            },
+            "midi": {
+                "channel": 6,
+                "program": 0,
+                "note": 69,
+                "velocity": 64
+            }
+        },
+        {
+            "sensor": {
+                "i2c_address": 73,
+                "channel": 3,
+                "threshold": 12000,
+                "alpha": 0.2
+            },
+            "midi": {
+                "channel": 7,
+                "program": 0,
+                "note": 67,
+                "velocity": 64
+            }
+        }
+    ],
+    "ads": {
+        "0x48": {
+            "address": 72,
+            "busnum": 1
+        },
+        "0x49": {
+            "address": 73,
+            "busnum": 1
+        }
+    },
+    "ads_enabled": ["0x48", "0x49"],
+    "keys_enabled": [0, 1, 2, 3, 4, 5, 6, 7],
+    "tick_delay": 0.0,
+    "ioerror_delay": 0.0,
+    "note_length": 1,
+    "gain": 1,
+    "fuzz": true
+}

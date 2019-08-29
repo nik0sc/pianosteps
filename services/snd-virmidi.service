@@ -1,0 +1,11 @@
+[Unit]
+Description=Virtual midi device
+After=sound.target timidity.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=+/sbin/modprobe snd-virmidi
+
+[Install]
+WantedBy=multi-user.target
